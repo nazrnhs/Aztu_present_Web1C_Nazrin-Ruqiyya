@@ -165,9 +165,6 @@ li:hover{
     --bs-gutter-y: 0;
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(var(--bs-gutter-y) * -1);
-    margin-right: calc(var(--bs-gutter-x) * -.5);
-    margin-left: calc(var(--bs-gutter-x) * -.5);
 }
 .t_panel_title {
     position: absolute;
@@ -255,13 +252,6 @@ p{
 .sonluq{
     display: flex;
 }
-/* col{ 
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-    margin-left: 255px
-    
-} */
 .list{
     font-size: 15px;
     color: #002147;
